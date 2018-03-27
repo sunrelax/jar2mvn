@@ -1,2 +1,2 @@
 # jar2mvn
-turns jar into pom and mvn install command
+turns jar into mvn install:install jsr command, properties version and dependencies
