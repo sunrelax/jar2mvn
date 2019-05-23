@@ -28,7 +28,7 @@ public class CreatePom {
 
 	public static void testDependency2() throws JAXBException, IOException {
 		File f = new File("/home/giuseppe/Documents/java/workspace/av_be/ws_regauth/ws_regauth/lib");
-		PomCreator.listFilesForFolder(f, "ws_regauth");
+		PomCreator.listFilesForFolder(f, "ws_regauth", true, true, true);
 
 	}
 
